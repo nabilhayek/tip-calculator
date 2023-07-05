@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import TextInput from './components/TextInput/TextInput';
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
         <div className='box-inputs'>
           <div>
             <p>Bill</p>
-            <input type='number' />
+            <TextInput icon='$' />
           </div>
           <div>
             <p>Select Tip %</p>
@@ -21,7 +22,7 @@ const App = () => {
           </div>
           <div>
             <p>Number of People</p>
-            <input type='number' />
+            <TextInput icon='#' />
           </div>
         </div>
         <div className='box-amount'></div>

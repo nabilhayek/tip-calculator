@@ -1,0 +1,21 @@
+.text-input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: hsl(189, 41%, 97%);
+  padding: 5px;
+}
+
+.text-input-wrapper > span {
+  color: hsl(184, 14%, 56%);
+}
+
+.text-input {
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(183, 100%, 15%);
+
+  text-align: right;
+  width: 100%;
+}
